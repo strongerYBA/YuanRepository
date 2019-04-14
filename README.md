@@ -1,3 +1,3 @@
 # YuanRepository
 
-我的github的git路径URL：https://github.com/strongerYBA/YuanRepository.git
+鎴戠殑github鐨刧it璺緞URL璺緞锛歨ttps://github.com/strongerYBA/YuanRepository.git
