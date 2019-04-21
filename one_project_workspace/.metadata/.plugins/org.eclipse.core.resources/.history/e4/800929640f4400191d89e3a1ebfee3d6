@@ -1,0 +1,9 @@
+package com.taotao.rest.dao;
+/**
+ * redis接口。
+ * @author Administrator
+ *
+ */
+public interface JedisClient {
+
+}

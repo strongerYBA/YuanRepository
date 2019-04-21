@@ -1,0 +1,24 @@
+package com.taotao.rest.Impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.taotao.pojo.TbContent;
+import com.taotao.rest.service.ContentService;
+/**
+ * 内容分类管理。
+ * @author Administrator
+ *
+ */
+@Service
+public class ContentServiceImpl implements ContentService
+{
+
+	@Override
+	public List<TbContent> geTbContents(long categoryId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,7 @@
+D:\Project_workspace\one_project_workspace\taotao-order\src\main\java\com\taotao\order\dao\impl\OrderServiceImpl.java
+D:\Project_workspace\one_project_workspace\taotao-order\src\main\java\com\taotao\order\controller\OrderServiceController.java
+D:\Project_workspace\one_project_workspace\taotao-order\src\main\java\com\taotao\order\pojo\Order.java
+D:\Project_workspace\one_project_workspace\taotao-order\src\main\java\com\taotao\order\dao\impl\JedisClientCluster.java
+D:\Project_workspace\one_project_workspace\taotao-order\src\main\java\com\taotao\order\dao\impl\JedisClientSingle.java
+D:\Project_workspace\one_project_workspace\taotao-order\src\main\java\com\taotao\order\dao\JedisClient.java
+D:\Project_workspace\one_project_workspace\taotao-order\src\main\java\com\taotao\order\service\OrderService.java

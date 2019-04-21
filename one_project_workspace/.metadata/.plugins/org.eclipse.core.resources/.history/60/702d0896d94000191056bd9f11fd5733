@@ -1,0 +1,10 @@
+package com.taotao.rest.service;
+/**
+ * 内容分类列表。
+ * @author Administrator
+ *
+ */
+public class ContentService
+{
+	List<TbContent>
+}

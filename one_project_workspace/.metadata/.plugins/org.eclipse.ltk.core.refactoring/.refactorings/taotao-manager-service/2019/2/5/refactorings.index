@@ -1,0 +1,3 @@
+1549105727372	Extract local variable 'createCriteria'
+1549105799145	Extract local variable 'selectByExample'
+1549108257829	Rename package 'com.taotao.impl'

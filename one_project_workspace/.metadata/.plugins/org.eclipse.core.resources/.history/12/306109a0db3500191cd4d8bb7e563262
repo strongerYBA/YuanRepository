@@ -1,0 +1,10 @@
+package com.taotao.controller;
+/**
+ * 上传图片处理。
+ * @author Administrator
+ *
+ */
+public class PictureController
+{
+	
+}

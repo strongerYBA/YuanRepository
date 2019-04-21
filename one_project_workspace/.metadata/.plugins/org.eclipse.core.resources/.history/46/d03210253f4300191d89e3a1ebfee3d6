@@ -1,0 +1,9 @@
+package com.taotao.redis.test;
+
+public class JedisTest {
+	public void testJedisSingle()
+	{
+		//创建一个jedis对象。
+		
+	}
+}

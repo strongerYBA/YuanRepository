@@ -1,0 +1,9 @@
+package com.taotao.rest.controller;
+/**
+ * 内容管理controller。
+ * @author Administrator
+ *
+ */
+public class ContentController {
+
+}

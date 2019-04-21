@@ -1,0 +1,17 @@
+package com.taotao.rest.Impl;
+
+import org.springframework.stereotype.Service;
+
+import com.taotao.common.utils.TaotaoResult;
+import com.taotao.rest.service.RedisService;
+
+@Service
+public class RedisServiceImpl implements RedisService{
+
+	@Override
+	public TaotaoResult syncContent(long contentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

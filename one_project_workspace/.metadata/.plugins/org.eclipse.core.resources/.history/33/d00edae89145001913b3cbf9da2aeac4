@@ -1,0 +1,23 @@
+package com.taotao.rest.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.taotao.common.constants.RedisConstant;
+import com.taotao.common.utils.TaotaoResult;
+import com.taotao.rest.dao.JedisClient;
+import com.taotao.rest.service.RedisService;
+
+@Service
+public class RedisServiceImpl implements RedisService{
+
+	@Autowired
+	private JedisClient jedisClient;
+	private String HKEY = RedisConstant.INDEX_CONTENT_REDIS_KEY
+	@Override
+	public TaotaoResult syncContent(long contentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

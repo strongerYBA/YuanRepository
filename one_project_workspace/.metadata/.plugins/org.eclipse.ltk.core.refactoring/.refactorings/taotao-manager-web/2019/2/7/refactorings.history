@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;itemList&apos; from expression &apos;itemService.getItemList(page,rows)&apos;&#x0D;&#x0A;- Original project: &apos;taotao-manager-web&apos;&#x0D;&#x0A;- Variable name: &apos;itemList&apos;&#x0D;&#x0A;- Destination method: &apos;com.taotao.controller.ItemController.getItemList()&apos;&#x0D;&#x0A;- Variable expression: &apos;itemService.getItemList(page,rows)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;itemList&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java&lt;com.taotao.controller{ItemController.java" name="itemList" replace="true" selection="905 0" stamp="1549893864554" version="1.0"/>
+</session>

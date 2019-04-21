@@ -1,0 +1,11 @@
+package com.taotao.rest.service;
+/**
+ * redis服务接口。
+ * @author Administrator
+ *
+ */
+public interface RedisService 
+{
+	TaoTaoResult syncContent(long contentId);
+
+}

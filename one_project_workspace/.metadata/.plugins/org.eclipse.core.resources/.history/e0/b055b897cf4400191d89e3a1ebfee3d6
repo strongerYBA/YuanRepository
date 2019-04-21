@@ -1,0 +1,69 @@
+package com.taotao.rest.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import redis.clients.jedis.JedisCluster;
+
+public class JedisClientCluster implements JedisClient{
+
+	@Autowired
+	private JedisCluster jedisCluster;
+	@Override
+	public String get(String key) {
+		// TODO Auto-generated method stub
+		try {
+			String string = jedisCluster.get(key);
+			return string;
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return null;
+	}
+
+	@Override
+	public String set(String key, String value) {
+		try {
+			String string = jedisCluster.set(key, value);
+			return string;
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return null;
+	}
+
+	@Override
+	public String hget(String hkey, String key) {
+		try {
+			String string = jedisCluster.hget(hkey, key);
+			return string;
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return null;
+	}
+
+	@Override
+	public String hset(String hkey, String key, String value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long incr(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long expire(String key, int second) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long ttl(String key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

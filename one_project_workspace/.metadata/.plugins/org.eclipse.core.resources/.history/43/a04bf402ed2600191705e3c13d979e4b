@@ -1,0 +1,14 @@
+package com.taotao.controller;
+/**
+ * 分页测试。
+ * @author Administrator
+ *
+ */
+public class TestPageHelper 
+{
+	@test
+	public void testPageHelper()
+	{
+		
+	}
+}

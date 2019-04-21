@@ -1,0 +1,13 @@
+1552227521588	Extract local variable 'string'
+1552227681973	Extract local variable 'resource'
+1552314398654	Copy file
+1552315470211	Extract local variable 'bean'
+1552315531131	Extract local variable 'resource'
+1552315543655	Extract local variable 'string'
+1552316338701	Extract local variable 'string'
+1552398683380	Extract local variable 'resource'
+1552398691247	Extract local variable 'string'
+1552399233777	Extract local variable 'string'
+1552476693187	Extract local variable 'hget'
+1552476806349	Extract local variable 'jsonToList'
+1552483003023	Extract local variable 'hdel'

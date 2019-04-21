@@ -1,0 +1,9 @@
+1549106188284	Extract local variable 'itemById'
+1549110444255	Delete element
+1549110537851	Delete element
+1549110607234	Delete element
+1549111171543	Delete element
+1549113862440	Extract local variable 'bean'
+1549113900987	Extract local variable 'tbItemExample'
+1549114030969	Extract local variable 'selectByExample'
+1549114193829	Extract local variable 'total'

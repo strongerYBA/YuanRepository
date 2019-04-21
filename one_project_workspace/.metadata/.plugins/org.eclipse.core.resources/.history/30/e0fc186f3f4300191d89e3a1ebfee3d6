@@ -1,0 +1,11 @@
+package com.taotao.redis.test;
+
+public class JedisTest {
+	public void testJedisSingle()
+	{
+		//创建一个jedis对象。
+		//调用jedis对象的方法。方法名称和redis一样。
+		//关闭‘
+		
+	}
+}

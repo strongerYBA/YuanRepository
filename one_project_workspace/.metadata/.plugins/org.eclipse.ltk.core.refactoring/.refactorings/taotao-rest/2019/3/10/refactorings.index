@@ -1,0 +1,7 @@
+1551579711115	Move 'category.json' to 'webapp'
+1551584345835	Extract local variable 'createCriteria'
+1551584369599	Extract local variable 'selectByExample'
+1551585927484	Extract local variable 'itemCatList'
+1551963995967	Extract local variable 'createCriteria'
+1551964019010	Extract local variable 'selectByExample'
+1551964281623	Extract local variable 'geTbContents'

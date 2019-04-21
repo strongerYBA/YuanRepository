@@ -1,0 +1,76 @@
+package com.taotao.redis.test;
+
+import java.util.HashSet;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import redis.clients.jedis.HostAndPort;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisCluster;
+import redis.clients.jedis.JedisPool;
+
+public class JedisTest {
+	@Test
+	public void testJedisSingle()
+	{
+		//创建一个jedis对象。
+		Jedis jedis = new Jedis("192.168.91.128", 6379);
+		//调用jedis对象的方法。方法名称和redis一样。
+		jedis.set("key1", "jedis test");
+		String string = jedis.get("key1");
+		System.out.println(string);
+		//关闭‘
+		jedis.close();
+
+	}
+	//使用连接池。
+	@Test
+	public void testJedisPool()
+	{
+		//创建jedisPool对象。
+		JedisPool jedisPool = new JedisPool("192.168.91.128", 6379);
+		//从连接池中获取jedis对象。
+		Jedis jedis = jedisPool.getResource();
+		//调用jedis对象的方法。方法名称和redis一样。
+//		jedis.set("key1", "jedis test");
+		String string = jedis.get("key1");
+		System.out.println(string);
+		//关闭‘
+		jedis.close();
+	}
+	/**
+	 * 测试集群。
+	 * 
+	 */
+	@Test
+	public void getRedisCluster()
+	{
+		HashSet<HostAndPort> set = new HashSet<>();
+		set.add(new HostAndPort("192.168.91.128", 7001));
+		set.add(new HostAndPort("192.168.91.128", 7002));
+		set.add(new HostAndPort("192.168.91.128", 7003));
+		set.add(new HostAndPort("192.168.91.128", 7004));
+		set.add(new HostAndPort("192.168.91.128", 7005));
+		set.add(new HostAndPort("192.168.91.128", 7006));
+		JedisCluster cluster = new JedisCluster(set);
+		cluster.set("key1", "jedis test");
+		String string = cluster.get("key1");
+		System.out.println(string);
+		//关闭‘
+		cluster.close();
+	}
+	@Test
+	public void testJedisSingle00()
+	{
+		ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
+		JedisPool bean = (JedisPool) context.getBean("redisClient");
+		Jedis resource = bean.getResource();
+		resource.set("key1", "yuan");
+		String string = resource.get("key1");
+		System.out.println(string);
+		resource.close();
+		bean.close();
+	}
+}

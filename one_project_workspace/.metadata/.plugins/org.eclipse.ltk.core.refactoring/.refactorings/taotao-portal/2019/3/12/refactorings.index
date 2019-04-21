@@ -1,0 +1,38 @@
+1553074189229	Delete element
+1553074199855	Delete element
+1553074249312	Delete element
+1553074591826	Delete element
+1553074594123	Delete element
+1553074602392	Delete element
+1553075104558	Delete element
+1553077131582	Delete element
+1553077136208	Delete element
+1553077138593	Delete element
+1553077345527	Delete element
+1553077348962	Delete element
+1553077500137	Delete element
+1553077546440	Delete element
+1553078244011	Copy file
+1553078256383	Rename resource '商品分类数据格式.txt'
+1553078259814	Delete element
+1553078785926	Copy file
+1553081520842	Copy compilation unit
+1553081525193	Delete element
+1553088458314	Extract local variable 'doGet'
+1553088722191	Extract local variable 'formatToList'
+1553088731490	Extract local variable 'data'
+1553089183163	Extract local variable 'contentList'
+1553159652908	Copy folder
+1553320831304	Extract local variable 'doGet'
+1553321021398	Extract local variable 'formatToPojo'
+1553321093804	Extract local variable 'data'
+1553321454831	Extract local variable 'search'
+1553349972547	Extract local variable 'doGet'
+1553350215307	Extract local variable 'data'
+1553350450588	Extract local variable 'itemBaseInfo'
+1553352026251	Extract local variable 'doGet'
+1553352143673	Extract local variable 'formatToPojo'
+1553352186497	Extract local variable 'data'
+1553353050694	Extract local variable 'doGet'
+1553353108403	Extract local variable 'formatToPojo'
+1553353243353	Extract local variable 'data'

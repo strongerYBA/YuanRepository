@@ -1,0 +1,19 @@
+1553666633563	Move 'spring' to 'mybatis'
+1553668888543	Extract local variable 'createCriteria'
+1553669007095	Extract local variable 'selectByExample'
+1553669223439	Rename compilation unit 'UserService.java'
+1553669901564	Extract local variable 'chechData'
+1553671419785	Move file
+1553671518945	Delete element
+1553671540259	Move 'applicationContext-dao.xml' to 'spring'
+1553671602078	Delete element
+1553672798392	Extract local variable 'createUser'
+1553676915299	Extract local variable 'createCriteria'
+1553676940865	Extract local variable 'selectByExample'
+1553677046894	Extract local variable 'tbUser'
+1553677188508	Extract local variable 'string'
+1553677895920	Extract local variable 'userLogin'
+1553681011184	Extract local variable 'string'
+1553681296113	Extract local variable 'userByToken'
+1553832070788	Move file
+1553834057182	Extract local variable 'jsonToPojo'

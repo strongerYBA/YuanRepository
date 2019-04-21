@@ -1,0 +1,72 @@
+package com.taotao.httpclient;
+
+import java.net.URI;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.utils.URIBuilder;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
+import org.junit.Test;
+
+/**
+ * httpclient测试。
+ * @author Administrator
+ *
+ */
+public class HttpClientTest 
+{
+	@Test
+	public void doget() throws Exception
+	{
+		//创建一个httpclient对象。
+		CloseableHttpClient client = HttpClients.createDefault();
+		//创建一个get对象。
+		HttpGet get  = new HttpGet("http://www.suhu.com");
+		//执行请求。
+		CloseableHttpResponse execute = client.execute(get);
+		//取响应的结果。P
+		int statusCode = execute.getStatusLine().getStatusCode();
+		System.out.println("statusCode = {},"+statusCode);
+		HttpEntity entity = execute.getEntity();
+		String string = EntityUtils.toString(entity,"utf-8");
+		System.out.println("string = "+string);
+		//关闭httpclient对象。
+		execute.close();
+		client.close();
+	}
+	@Test
+	public void doGetWithParam() throws Exception
+	{
+		//创建一个httpclient对象。
+		CloseableHttpClient client = HttpClients.createDefault();
+		//创建一个uri对象。
+		URIBuilder uri = new URIBuilder("http://www.baidu.com/s");
+		uri.addParameter("wd", "花千骨");
+		//创建一个get对象。
+		HttpGet get  = new HttpGet(uri.build());
+		//执行请求。
+		CloseableHttpResponse execute = client.execute(get);
+		//取响应的结果。P
+		int statusCode = execute.getStatusLine().getStatusCode();
+		System.out.println("statusCode = {},"+statusCode);
+		HttpEntity entity = execute.getEntity();
+		String string = EntityUtils.toString(entity,"utf-8");
+		System.out.println("string = "+string);
+		//关闭httpclient对象。
+		execute.close();
+		client.close();
+	}
+	@Test
+	public void doPost()
+	{
+		//创建一个httpclient对象。
+				CloseableHttpClient client = HttpClients.createDefault();
+				//创建一个uri对象。
+				URIBuilder uri = new URIBuilder("http://www.baidu.com/s");
+	}
+}

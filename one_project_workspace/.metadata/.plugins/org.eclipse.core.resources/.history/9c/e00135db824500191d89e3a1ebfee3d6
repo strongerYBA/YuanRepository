@@ -1,0 +1,49 @@
+package com.taotao.rest.Impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.taotao.mapper.TbContentMapper;
+import com.taotao.pojo.TbContent;
+import com.taotao.pojo.TbContentExample;
+import com.taotao.pojo.TbContentExample.Criteria;
+import com.taotao.rest.dao.JedisClient;
+import com.taotao.rest.service.ContentService;
+/**
+ * 内容分类管理。
+ * @author Administrator
+ *
+ */
+@Service
+public class ContentServiceImpl implements ContentService
+{
+	@Autowired
+	private TbContentMapper tbContentMapper;
+	@Autowired
+	private JedisClient jedisClient;
+	@Override
+	public List<TbContent> geTbContents(long categoryId) {
+		//从缓存中取。
+		try {
+			jedisClient
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		TbContentExample example = new TbContentExample();
+		Criteria createCriteria = example.createCriteria();
+		createCriteria.andCategoryIdEqualTo(categoryId);
+		List<TbContent> selectByExample = tbContentMapper.selectByExample(example);
+		//添加缓存。
+		try {
+			//将list转换成字符串。
+			
+			jedisClient.s
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return selectByExample;
+	}
+
+}

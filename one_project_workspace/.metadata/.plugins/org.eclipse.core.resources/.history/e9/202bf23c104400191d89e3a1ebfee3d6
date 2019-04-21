@@ -1,0 +1,14 @@
+package com.taotao.rest.dao;
+/**
+ * redis接口。
+ * @author Administrator
+ *
+ */
+public interface JedisClient 
+{
+	String get(String key);
+	String set(String key,String value);
+	String hget(String hkey,String key);
+	String hset(String hkey ,String key,String value);
+	long incr(String key);//自增。
+}

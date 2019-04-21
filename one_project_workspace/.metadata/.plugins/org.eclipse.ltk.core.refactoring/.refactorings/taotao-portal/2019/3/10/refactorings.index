@@ -1,0 +1,8 @@
+1551965983691	Extract local variable 'execute'
+1551965998862	Extract local variable 'entity'
+1551966073726	Extract local variable 'statusLine'
+1551966110979	Extract local variable 'statusCode'
+1551966202675	Extract local variable 'string'
+1552105930215	Extract local variable 'doGet'
+1552106128553	Extract local variable 'formatToList'
+1552108523180	Extract local variable 'contentList'

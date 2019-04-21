@@ -1,0 +1,11 @@
+package com.taotao.common.constants;
+
+public final class RedisConstant
+{
+	/**
+	 * 内容分类管理redis中的hkey.
+	 */
+	public static final String INDEX_CONTENT_REDIS_KEY = "index_content_redis_key";
+	
+	
+}

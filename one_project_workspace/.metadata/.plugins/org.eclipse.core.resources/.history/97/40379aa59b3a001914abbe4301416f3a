@@ -1,0 +1,16 @@
+package com.taotao.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.taotao.service.ItemParamItemService;
+/**
+ * 展示商品规格参数。
+ * @author Administrator
+ *
+ */
+@Controller
+public class ItemParamItemController {
+	@Autowired
+	private ItemParamItemService itemParamItemService;
+}

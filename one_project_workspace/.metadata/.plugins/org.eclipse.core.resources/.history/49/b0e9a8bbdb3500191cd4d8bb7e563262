@@ -1,0 +1,14 @@
+package com.taotao.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 上传图片处理。
+ * @author Administrator
+ *
+ */
+@Controller
+public class PictureController
+{
+	
+}

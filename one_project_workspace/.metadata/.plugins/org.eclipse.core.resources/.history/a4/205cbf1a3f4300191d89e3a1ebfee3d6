@@ -1,0 +1,8 @@
+package com.taotao.redis.test;
+
+public class JedisTest {
+	public void testJedisSingle()
+	{
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.taotao.rest.Impl;
+
+public class RedisServiceImpl {
+
+}

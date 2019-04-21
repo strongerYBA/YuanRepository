@@ -1,0 +1,15 @@
+package com.taotao.rest.service;
+
+import java.util.List;
+
+import com.taotao.pojo.TbContent;
+
+/**
+ * 内容分类列表。
+ * @author Administrator
+ *
+ */
+public class ContentService
+{
+	List<TbContent> geTbContents(long categoryId);
+}

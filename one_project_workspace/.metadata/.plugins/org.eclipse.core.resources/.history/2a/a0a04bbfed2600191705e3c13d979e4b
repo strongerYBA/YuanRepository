@@ -1,0 +1,22 @@
+package com.taotao.controller;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * 分页测试。
+ * @author Administrator
+ *
+ */
+public class TestPageHelper 
+{
+	@Test
+	public void testPageHelper()
+	{
+		//创建一个spring容器。
+		ApplicationContext context = new ClassPathXmlApplicationContext("");
+		//从spring容器中获得mapper的代理对象。
+		//执行查询。并分页。
+	}
+}

@@ -1,0 +1,5 @@
+1551622039307	Extract local variable 'categoryList'
+1551710285574	Extract local variable 'addCategory'
+1551712795008	Extract local variable 'deleteCategory'
+1551788913243	Extract local variable 'updateCategory'
+1551790787718	Extract local variable 'contentList'
