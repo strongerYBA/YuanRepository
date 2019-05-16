@@ -1,0 +1,10 @@
+com\spirng\servlet\controller\PropertiesRestController.class
+com\spirng\servlet\controller\UserRestController.class
+com\spirng\servlet\domain\User.class
+com\spirng\servlet\http\converter\properties\PropertiesHttpMessageConverter.class
+com\spirng\servlet\method\support\PropertiesHandlerMethodArgumentResolver.class
+com\spirng\servlet\controller\HelloWorldRestController.class
+com\spirng\servlet\config\RestWebMvcConfigurer.class
+com\spirng\servlet\bootstrap\SpringbootRestBootstrap.class
+com\spirng\servlet\controller\HelloWorldController.class
+com\spirng\servlet\method\support\PropertiesHandlerMethodReturnValueHandler.class

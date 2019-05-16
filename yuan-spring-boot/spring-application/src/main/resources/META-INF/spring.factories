@@ -1,0 +1,15 @@
+# Initializers实现配置
+org.springframework.context.ApplicationContextInitializer=\
+yuanspringboot.context.AfterApplicationContextInitializer,\
+yuanspringboot.context.HelloWorldApplicationContextInitializer,\
+yuanspringboot.context.ModleApplicationContextInitializer
+
+# Application Listeners实现配置
+org.springframework.context.ApplicationListener=\
+yuanspringboot.listener.AfterApplicationListener,\
+yuanspringboot.listener.HelloWorldApplicationListener,\
+yuanspringboot.listener.BeforeConfigFileApplicationListener
+
+# Run Listeners实现配置。
+org.springframework.boot.SpringApplicationRunListener=\
+yuanspringboot.run.HelloWorldRunListener

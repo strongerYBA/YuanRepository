@@ -1,0 +1,5 @@
+com\spirng\servlet\template\engine\config\WebMvcConfig$1.class
+com\spirng\servlet\template\engine\config\WebMvcConfig.class
+com\spirng\servlet\template\engine\controller\HelloWorldControllerAdvice.class
+com\spirng\servlet\template\engine\controller\HelloWorldController.class
+com\spirng\servlet\template\engine\bootstrap\SpringBootWebMvcBootstrap.class

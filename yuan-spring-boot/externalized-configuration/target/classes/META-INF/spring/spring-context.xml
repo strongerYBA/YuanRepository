@@ -1,0 +1,13 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+<!--    &lt;!&ndash;属性站位符配置&ndash;&gt;-->
+<!--    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
+
+<!--        &lt;!&ndash;        Properties文件Classpath路径&ndash;&gt;-->
+<!--        <property name="location" value="classpath:/application.properties"/>-->
+<!--        &lt;!&ndash;        文件字符编码&ndash;&gt;-->
+<!--        <property name="fileEncoding" value="UTF-8"/>-->
+<!--    </bean>-->
+<!--</beans>-->

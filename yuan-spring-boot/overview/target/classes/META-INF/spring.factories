@@ -1,0 +1,3 @@
+# Auto Configure ×Ô¶¯×°Åä¡£
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+yuanspringboot.Configuration.HelloWorldAutoConfiguration
